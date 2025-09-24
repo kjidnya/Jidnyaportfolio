@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jidnyasa Portfolio</title>
+    <link rel="icon" type="image/png" href="Assets/Images/cvfavi.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+                publicKey: "ZEisE-LThZeuxJMS5", // Replace with your Public Key
+            });
+        })();
+    </script>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="Assets/Images/JidProfileSmall.jpg" alt="Jidnyasa's Profile Picture" class="logo-img">
+            <div class="logo">Jidnya's Portfolio</div>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero fade-in-on-scroll">
+        <div class="intro-text">
+            <h1>I'm <span>Jidnyasa !</span></h1>
+            <p>Creative. Passionate. Tech enthusiast</p>
+            <p class="description">
+                I'm Jidnyasa Kale, a creative tech enthusiast passionate about Java, web development, and UI/UX design. I love turning ideas into interactive, user-friendly digital experiences that balance functionality with clean, modern aesthetics. I've worked on projects like HostelVista, Encyclopedia System, Solasilicon Logo and various UI prototypes and logos, sharpening my skills in HTML, CSS, Bootstrap, UI Designing, Java, and JavaFX.
+            </p>
+        </div>
+        <div class="intro-img-flip-container">
+            <div class="intro-img-flipper">
+                <div class="intro-img-front">
+                    <img src="Assets/Images/Jidprofile.jpg"alt="Profile">
+                </div>
+                <div class="intro-img-back">
+                    <img src="Assets/Images/JidprofileIllustration.jpg" alt="Profile Illustration">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="cards">
+            <div class="card slide-up-on-scroll">
+                <img src="Assets/Images/Ency.png" alt="Project1 Encyclopedia System">
+                <div class="card-info">
+                    <h3>Encyclopedia System</h3>
+                    <p>Web Design & Development: The Encyclopedia System is an interactive web platform for easy, engaging knowledge exploration. I built the homepage, About Us section, and footer using HTML, CSS, and Bootstrap, creating a responsive, elegant design that blends creativity with functionality</p>
+                    <a href="project-encyclopedia.html" class="btn">View Details</a>
+                </div>
+            </div>
+            <div class="card slide-up-on-scroll">
+                <img src="Assets/Images/Hostelvista.png" alt="Project2 HostelVista">
+                <div class="card-info">
+                    <h3>HostelVista</h3>
+                    <p>Desktop Application: The HostelVista streamlines hostel and mess management with features like complaint handling, mess change, and real-time notifications. I designed a responsive JavaFX UI and implemented role-based authentication using Firebase, delivering a clean, user-friendly interface with efficient backend integration.</p>
+                    <a href="project-hostelvista.html" class="btn">View Details</a>
+                </div>
+            </div>
+            <div class="card slide-up-on-scroll">
+                <img src="Assets/Images/ss.png" alt="Project3 Solasilicon Logo">
+                <div class="card-info">
+                    <h3>Solasilicon Logo</h3>
+                    <p>Logo Design: My passion for creating the SolaSilicon logo came from the vision of blending clean modern aesthetics with a strong, memorable identity. I aimed to design a logo that captures the brand’s innovative spirit, using simple yet impactful elements to convey technology, energy, and elegance in a single mark.</p>
+                    <a href="project-solasilicon.html" class="btn">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills fade-in-on-scroll">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-list">
+            <p><strong>Languages:</strong> Java, JavaFx, HTML/CSS, JavaScript, C++, SQL</p>
+            <p><strong>Developer Tools:</strong> VS Code, Git, GitHub, GitLab, Canva, Figma</p>
+            <p><strong>Technologies/Frameworks:</strong> Firebase, Bootstrap</p>
+        </div>
+    </section>
+    
+    <section id="education" class="education fade-in-on-scroll">
+    <h2 class="section-title">Education</h2>
+    <div class="education-entries">
+        <div class="education-entry slide-up-on-scroll">
+            <h3 class="institution-name">RMDSTIC</h3>
+            <p class="degree">B.E. Computer Engineering</p>
+            <p class="location-date">Pune, Maharashtra | May 2022– May 2026</p>
+            <p class="gpa">CGPA: 7.39</p>
+        </div>
+        <div class="education-entry slide-up-on-scroll">
+            <h3 class="institution-name">Kulbhushan Junior College</h3>
+            <p class="degree">HSC</p>
+            <p class="location-date">Aurangabad, Maharashtra | July 2020– April 2022</p>
+            <p class="gpa">CGPA: 9</p>
+        </div>
+        <div class="education-entry slide-up-on-scroll">
+            <h3 class="institution-name">New Beginning International School</h3>
+            <p class="degree">CBSE</p>
+            <p class="location-date">Aurangabad, Maharashtra | May 2010– May 2020</p>
+            <p class="gpa">CGPA: 9</p>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact fade-in-on-scroll">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-info">
+            <p>Pune</p>
+            <p>Email: kjidnyasa2004@gmail.com | Tel: 7744876707</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/jidnyasa-kale/" ><img src="Assets/Images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/kjidnya"><img src="Assets/Images/github.png" alt="GitHub"></a>
+                <a href="https://www.instagram.com/kale.jidnyasa/" ><img src="Assets/Images/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <form id="contact-form">
+            <input type="text" name="from_name" placeholder="First name *" required>
+            <input type="text" name="last_name" placeholder="Last name *" required>
+            <input type="email" name="reply_to" placeholder="Email *" required>
+            <input type="tel" name="contact_number" placeholder="Contact no. *" required>
+            <textarea name="message" placeholder="Your Message *" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+        <p id="form-status"></p>
+    </section>
+
+    <footer class="footer">
+        © 2025 Jidnyasa Kale
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
